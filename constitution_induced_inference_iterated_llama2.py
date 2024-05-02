@@ -26,8 +26,7 @@ print(bad_cases_all_sorted[0])
 
 import openai
 # Example OpenAI Python library request
-openai.api_key = "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"
-# openai.api_key = "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"
+openai.api_key = ""
 # MODEL = "gpt-4"
 MODEL = "gpt-3.5-turbo"
 
