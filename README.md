@@ -31,7 +31,7 @@ Instead, it leverages the red teaming instances and a strong LLM to discover con
 </p>
 
 ## Data Preparation
-**Processed data.** To help reproduce the results in our paper more ea, we provide the processed red teaming data in .pkl format in this repo.
+**Processed data.** To help reproduce the results in our paper more easily, we provide the processed red teaming data in .pkl format in this repo.
 
 **Raw data.** Raw data can be downloaded from [Anthropic hh-rlhf](https://huggingface.co/datasets/Anthropic/hh-rlhf), [HarmfulQA](https://huggingface.co/datasets/declare-lab/HarmfulQA), and [DangerousQA](https://github.com/SALT-NLP/chain-of-thought-bias/blob/main/data/dangerous-q/toxic_outs.json) directly. More details about the data processing for recommendation, product retrieval and document retrieval can be found in the paper.
 
