@@ -5,7 +5,7 @@ import gc
 import torch
 from vllm.model_executor.parallel_utils.parallel_state import destroy_model_parallel
 
-with open('/home/ec2-user/quic-efs/user/xiusi/bad_cases_all_sorted.pkl', 'rb') as f:
+with open('bad_cases_all_sorted.pkl', 'rb') as f:
     bad_cases_all_sorted = pickle.load(f)
 
 print(bad_cases_all_sorted[0][0])
@@ -13,7 +13,7 @@ print(bad_cases_all_sorted[0][0])
 # %%
 import pickle
 
-with open('/home/ec2-user/quic-efs/user/xiusi/initial_red_teaming_data_all.pkl', 'rb') as f:
+with open('initial_red_teaming_data_all.pkl', 'rb') as f:
     initial_red_teaming_data_all = pickle.load(f)
 
 length_rt_data_all = len(initial_red_teaming_data_all)
@@ -30,7 +30,7 @@ openai.api_key = ""
 # MODEL = "gpt-4"
 MODEL = "gpt-3.5-turbo"
 
-OUTPUT_DIR = "/home/ec2-user/quic-efs/user/xiusi/output_vicuna1.5-7b_gpt3.5_sft_v9"
+OUTPUT_DIR = "./output_vicuna1.5-7b_gpt3.5_sft"
 
 from vllm import LLM, SamplingParams
 
