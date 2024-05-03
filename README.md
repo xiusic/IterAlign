@@ -27,7 +27,7 @@ Second, it does not require handwritten constitutions to be provided a priori.
 Instead, it leverages the red teaming instances and a strong LLM to discover constitutions automatically, leading to a better aligned model and a set of valuable data-driven constitutions.
 
 <p align="center">
-  <img src="figs/overview.pdf" width="600px"/>
+  <img src="figs/overview.png" width="700px"/>
 </p>
 
 ## Data Preparation
